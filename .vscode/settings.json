@@ -73,5 +73,6 @@
         "valarray": "cpp",
         "hash_map": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Enabled"
+    "C_Cpp.errorSquiggles": "Enabled",
+    "python.pythonPath": "C:\\Users\\Steven\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
 }

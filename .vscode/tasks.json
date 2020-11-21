@@ -27,7 +27,11 @@
 			"type": "shell",
 			"label": "clean",
 			"command": "del *.exe",
-			"problemMatcher": []
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "silent",
+				"showReuseMessage": false
+			}
 		}
 	]
 }
