@@ -3,24 +3,23 @@
 #include <string>
 
 int main() {
-  using namespace std;
   int N;
-  string str;
-  getline(cin, str);
-  stringstream(str) >> N;
+  std::string str;
+  std::getline(std::cin, str);
+  std::stringstream(str) >> N;
   for (int i = 0; i < N; i++) {
-    string line;
-    getline(cin, line);
+    std::string line;
+    std::getline(std::cin, line);
     if (line.compare("P=NP") == 0) {
-      cout << "skipped" << '\n';
+      std::cout << "skipped" << '\n';
     } else {
-      istringstream stream(line);
-      string stra, strb;
-      getline(stream, stra, '+');
-      getline(stream, strb, '+');
-      int a = stoi(stra);
-      int b = stoi(strb);
-      cout << a + int(b) << '\n';
+      std::istringstream stream(line);
+      std::string stra, strb;
+      std::getline(stream, stra, '+');
+      std::getline(stream, strb, '+');
+      int a = std::stoi(stra);
+      int b = std::stoi(strb);
+      std::cout << a + int(b) << '\n';
     }
   }
 }

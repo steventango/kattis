@@ -3,19 +3,18 @@
 #include <string>
 
 int main() {
-  using namespace std;
   int N;
   float sum = 0;
-  string str;
-  getline(cin, str);
-  stringstream(str) >> N;
+  std::string str;
+  std::getline(std::cin, str);
+  std::stringstream(str) >> N;
   for (int i = 0; i < N; i++) {
-    string line;
-    getline(cin, line);
-    stringstream stream(line);
+    std::string line;
+    std::getline(std::cin, line);
+    std::stringstream stream(line);
     float a, b;
     stream >> a >> b;
     sum += a * b;
   }
-  cout << sum;
+  std::cout << sum;
 }

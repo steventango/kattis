@@ -3,12 +3,11 @@
 #include <string>
 
 int main() {
-  using namespace std;
-  string NP;
-  getline(cin, NP);
-  istringstream iss(NP);
-  string token;
-  getline(iss, token, ' ');
-  getline(iss, token, ' ');
-  cout << token;
+  std::string NP;
+  std::getline(std::cin, NP);
+  std::istringstream iss(NP);
+  std::string token;
+  std::getline(iss, token, ' ');
+  std::getline(iss, token, ' ');
+  std::cout << token;
 }
