@@ -7,8 +7,8 @@ int main() {
   std::cin >> N;
   while (N > 0) {
     std::cin >> b >> p;
-    BPM = 60. * b / p;
-    delta = 60. / p;
+    delta = 60 / p;
+    BPM = delta * b;
     minABPM = BPM - delta;
     maxABPM = BPM + delta;
     std::cout << std::setprecision(6) << minABPM << " " << BPM << " " << maxABPM
