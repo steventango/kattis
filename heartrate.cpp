@@ -1,18 +1,17 @@
-#include <iomanip>
 #include <iostream>
 
 int main() {
   int N, b;
-  double p, minABPM, BPM, maxABPM, delta;
+  float p, minABPM, BPM, maxABPM, delta;
   std::cin >> N;
-  while (N > 0) {
+  std::cout << std::fixed;
+  std::cout.precision(4);
+  while (N--) {
     std::cin >> b >> p;
-    delta = 60 / p;
+    delta = 60.0 / p;
     BPM = delta * b;
     minABPM = BPM - delta;
     maxABPM = BPM + delta;
-    std::cout << std::setprecision(6) << minABPM << " " << BPM << " " << maxABPM
-              << std::endl;
-    N--;
+    std::cout << minABPM << " " << BPM << " " << maxABPM << std::endl;
   }
 }
