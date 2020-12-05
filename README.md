@@ -12,5 +12,3 @@ Kattis Solutions written in C++, as I attempt to learn C++ and climb the UAlbert
  * A New Alphabet
  * Akcija
  * Flexible Spaces
- * Trik
- * Autori
