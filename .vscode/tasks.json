@@ -43,7 +43,6 @@
 			],
 			"problemMatcher": [],
 			"presentation": {
-				"reveal": "silent",
 				"showReuseMessage": false
 			}
 		}
