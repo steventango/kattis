@@ -9,6 +9,5 @@ Kattis Solutions written in C++, as I attempt to learn C++ and climb the UAlbert
  * Secure Doors
  * Bela
  * Odd Man Out
- * A New Alphabet
  * Akcija
  * Flexible Spaces
