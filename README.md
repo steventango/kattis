@@ -6,6 +6,5 @@ Kattis Solutions written in C++, as I attempt to learn C++ and climb the UAlbert
  * CD
  * I've Been Everywhere, Man
  * Secure Doors
- * Bela
  * Akcija
  * Flexible Spaces
