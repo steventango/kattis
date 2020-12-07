@@ -24,9 +24,9 @@ int main() {
       CD_jack = jack.front();
       CD_jill = jill.front();
 
-      if (jack.size() && CD_jack < CD_jill) {
+      if (CD_jack < CD_jill) {
         jack.pop();
-      } else if (jill.size() && CD_jill < CD_jack) {
+      } else if (CD_jill < CD_jack) {
         jill.pop();
       } else {
         jill.pop();
