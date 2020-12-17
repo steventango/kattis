@@ -4,14 +4,14 @@ int main() {
   int N;
   std::cin >> N;
 
-  float t_, v_;
+  double t_, v_;
   std::cin >> t_ >> v_;
   N--;
 
-  float a = 0;
+  double a = 0;
 
   while (N--) {
-    float t, v;
+    double t, v;
     std::cin >> t >> v;
     a += (v_ + (v - v_) / 2) * (t - t_) / 1000;
     t_ = t;
