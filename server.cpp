@@ -11,6 +11,6 @@ int main() {
     sum += length;
     if (sum > T) break;
   }
-  
+
   std::cout << i << std::endl;
 }
