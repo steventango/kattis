@@ -34,7 +34,7 @@ int main() {
           break;
       }
     }
-    finish = finish && bag.empty();
+    finish &= bag.empty();
     std::cout << (finish ? "YES" : "NO") << std::endl;
   }
 }
