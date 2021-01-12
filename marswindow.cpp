@@ -19,7 +19,7 @@ int main() {
   std::cin >> y;
 
   double root = newtons_method(y + .49, 0.001);
-  bool found = y <= root && root < y + 1 && (y - 2018.25) != 13 / 12.0;
+  bool found = y <= root && root < y + 1;
 
   std::cout << (found ? "yes" : "no") << std::endl;
 }
