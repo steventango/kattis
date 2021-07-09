@@ -2,6 +2,10 @@
 #include <queue>
 
 int main() {
+  std::ios_base::sync_with_stdio(false);
+  std::cin.tie(NULL);
+
+
   int N, M;
   while (std::cin >> N >> M) {
     if (N + M == 0) break;
@@ -31,7 +35,7 @@ int main() {
       } else {
         jill.pop();
         jack.pop();
-        both++;
+        ++both;
       }
     }
 
