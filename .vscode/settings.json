@@ -93,7 +93,7 @@
         "xtree": "cpp",
         "xutility": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Enabled",
-    "python.pythonPath": "C:\\Users\\Steven\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-    "editor.tabSize": 2
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.tabSize": 2,
+    "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }
